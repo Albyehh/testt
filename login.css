@@ -1,0 +1,323 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-image: url(f.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.credit{
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: -20px;
+}
+.box{
+  width: 300px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  margin-top: 15vh;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.lock{
+  margin-top: -10px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.glow {
+  font-size:50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+  }
+}
+#password{
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: black ;
+  font-size: 15px;
+  transition: .5s;
+}
+#login{
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 32%;
+  transition: .5s;
+}
+#login:hover{
+  box-shadow: 0 0 15px lime;
+  border-color: lime;
+}
+#password:hover{
+  box-shadow: 0 0 15px lime;
+}
+#password:focus{
+  border-color: lime;
+}
+
+@media screen and (min-width: 400px) {
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url(f.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .credit{
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: -20px;
+  }
+  .box{
+      width: 300px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.6);
+      margin: auto;
+      margin-top: 50%;
+      margin-bottom: 50%;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgb(0, 0, 0);
+  }
+  .lock{
+      margin-top: -10px;
+      text-align: center;
+      padding-bottom: 5px;
+  }
+  .glow {
+      font-size:50px;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      to {
+        text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+      }
+    }
+    #password{
+      width: 300px;
+      height: 40px;
+      border-radius: 20px;
+      border-color: black ;
+      font-size: 15px;
+      transition: .5s;
+    }
+    #login{
+      width: 100px;
+      height: 50px;
+      border-radius: 20px;
+      background-color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      position: relative;
+      top: 10px;
+      left: 32%;
+      transition: .5s;
+    }
+    #login:hover{
+      box-shadow: 0 0 15px lime;
+      border-color: lime;
+    }
+    #password:hover{
+      box-shadow: 0 0 15px lime;
+    }
+    #password:focus{
+      border-color: lime;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url(f.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.credit{
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: -20px;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.lock{
+    margin-top: -10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.glow {
+    font-size:50px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+    }
+  }
+  #password{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: black ;
+    font-size: 15px;
+    transition: .5s;
+  }
+  #login{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 32%;
+    transition: .5s;
+  }
+  #login:hover{
+    box-shadow: 0 0 15px lime;
+    border-color: lime;
+  }
+  #password:hover{
+    box-shadow: 0 0 15px lime;
+  }
+  #password:focus{
+    border-color: lime;
+  }
+}
+
+
+@media screen and (min-width: 1680px){
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url(f.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 1304px;
+  }
+  .credit{
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: -20px;
+  }
+  .box{
+      width: 300px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.6);
+      margin: auto;
+      margin-top: 15vh;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgb(0, 0, 0);
+  }
+  .lock{
+      margin-top: -10px;
+      text-align: center;
+      padding-bottom: 5px;
+  }
+  .glow {
+      font-size:50px;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      to {
+        text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+      }
+    }
+    #password{
+      width: 300px;
+      height: 40px;
+      border-radius: 20px;
+      border-color: black ;
+      font-size: 15px;
+      transition: .5s;
+    }
+    #login{
+      width: 100px;
+      height: 50px;
+      border-radius: 20px;
+      background-color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      position: relative;
+      top: 10px;
+      left: 32%;
+      transition: .5s;
+    }
+    #login:hover{
+      box-shadow: 0 0 15px lime;
+      border-color: lime;
+    }
+    #password:hover{
+      box-shadow: 0 0 15px lime;
+    }
+    #password:focus{
+      border-color: lime;
+    }
+  }
+  @media (min-width: 375px) {
+    
+  }

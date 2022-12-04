@@ -1,0 +1,123 @@
+body{
+    background-image: url(c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: top;
+}
+div:hover{
+    filter: none;
+    transition: 1s;
+    opacity: 1;
+}
+div:not(:hover){
+    filter: blur(6px);
+    transition: 1s;
+    opacity: 0.5;
+}
+.p1 {
+    text-align: center;
+    font-family: cursive;
+    background: linear-gradient(to top right, black, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 0px;
+    font-size: 40px;
+    font-weight: bolder;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+section.s1{
+    padding: 0 275px;
+    display: block;
+    align-items: center;
+    position: relative;
+}
+.ol1 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;  
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 20px;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    list-style: none;
+
+}
+.box2{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .75);
+    position: relative;
+    top: 100px;
+    padding: 0px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+}
+.wishes{
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+section.s3 {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .75);
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+    transition: .3s;
+    position: fixed;
+    left: 100px;
+    top: 300px;
+}
+.img1{
+    height: auto;
+    width: 65%;
+    display: block;
+    position: relative;
+    padding: 4px;
+    left: 3px;
+    border-radius: 10px;
+    transform: rotate(180deg);
+}
+.s3:hover {
+    background-color: rgba(255, 255, 255,1);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 1);
+    cursor: pointer;
+}
+
+section.s4 {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .75);
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+    transition: .3s;
+    position: fixed;
+    right: 100px;
+    top: 300px;
+}
+.img2{
+    height: auto;
+    width: 65%;
+    display: block;
+    position: relative;
+    padding: 4px;
+    left: 5px;
+    border-radius: 10px;
+}
+.s4:hover {
+    background-color: rgba(255, 255, 255,1);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 1);
+    cursor: pointer;
+}
